@@ -1,0 +1,243 @@
+.navbar-brand{
+    font-weight: 500;
+    color: #aaa!important;
+}
+@media (min-width: 992px){
+    .typo-line{
+        padding-left: 140px;
+        margin-bottom: 40px;
+        position: relative;
+    }
+
+    .typo-line .category{
+        transform: translateY(-50%);
+        top: 50%;
+        left: 0px;
+        position: absolute;
+    }
+}
+
+#map{
+    position:relative;
+    width:100%;
+    height: calc(100% - 60px);
+    margin-top: 70px;
+}
+
+.places-buttons .btn{
+    margin-bottom: 30px
+}
+
+.space-70{
+    height: 70px;
+    display: block;
+}
+
+.sidebar .nav > li.active-pro{
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+}
+
+.tim-row{
+    margin-bottom: 20px;
+}
+
+.tim-typo{
+    padding-left: 25%;
+    margin-bottom: 40px;
+    position: relative;
+}
+.tim-typo .tim-note{
+    bottom: 10px;
+    color: #c0c1c2;
+    display: block;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    left: 0;
+    margin-left: 20px;
+    position: absolute;
+    width: 260px;
+}
+.tim-row{
+    padding-top: 50px;
+}
+.tim-row h3{
+    margin-top: 0;
+}
+
+
+/*FONT WEIGHT*/
+.thin{
+    font-weight: 300;
+}
+.normal{
+    font-weight: 400;
+}
+.semibold{
+    font-weight: 500!important;
+}
+.bold{
+    font-weight: 600!important;
+}
+
+/*COLOR*/
+.text-red{
+  color: #ed7063!important;
+}
+.text-green{
+  color: #66bb6a!important
+}
+
+.item, .item-detail{
+    margin: 20px 0;
+    color: #aaa;
+    font-weight: 400;
+}
+.item hr{
+    border-top-color: #eee;
+    margin: 30px 0 0!important;
+}
+
+.event-info.detail{
+    font-size: 12.5px;
+    background-color: #f5f5f5;
+    padding: 15px;
+    margin: 25px 0 35px;
+    box-shadow: 0px 8px 25px rgba(0,0,0,.05);
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.event-info td{
+    border-color: #eee!important;
+    padding: 15px 5px!important;
+}
+.event-info i, .pesan-info i{
+    font-size: 16px;
+    margin-right: 5px;
+    vertical-align: middle
+}
+.item img.poster{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 3px solid #eee;
+    box-shadow: 0 0 25px rgba(0,0,0,.15);
+    width: 100px;
+    max-width: 100%;
+    margin: 10px 20px 0;
+}
+.item:last-child hr{
+    display: none;
+}
+.spacing-1{
+    text-transform: none;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+
+.jml-circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    text-align: center;
+    background-color: #eee;
+    color: #ed7063;
+    line-height: 40px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.jml-circle i{
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.item-detail{
+    line-height: 1.7em;
+}
+.item-detail img.poster{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 3px solid #eee;
+    box-shadow: 0 0 25px rgba(0,0,0,.15);
+    width: 200px;
+    max-width: 100%;
+    margin: 10px 5px;
+}
+
+.divider{
+    height: 40px;
+    display: block;
+}
+
+.border-top{
+    border-top: 1px solid #f1f1f1;
+}
+
+.text-none{
+    text-transform: none;
+}
+
+.table-pesan td{
+    color: #999;
+    font-weight: 400;
+}
+.table-pesan tr.unread{
+    background-color: rgba(241, 196, 15, .08);
+}
+.table-pesan tr.unread td{
+    font-weight: 500;
+    border-top-color: #f1c40f!important;
+}
+.profil-row{
+    margin-bottom: 30px;
+}
+.profil-wrap{
+    background-color: transparent;
+    /*margin-bottom: 20px;*/
+}
+.profil-wrap .photos{
+    width: 50px;
+    height: 50px;
+    background-color: #ddd;
+}
+.profil-wrap img.photos{
+    border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+}
+.profil-wrap td:last-child{
+    padding-left: 10px;
+}
+.profil-wrap h6{
+    text-transform: none;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+.profil-wrap small{
+    color: #c0c0c0;
+    font-weight: 400;
+}
+
+.table-pemberitahuan td{
+    color: #999;
+    font-weight: 400;
+}
+.table-pemberitahuan tr.unread{
+    background-color: rgba(0, 188, 212, .03);
+}
+.table-pemberitahuan tr.unread td{
+    font-weight: 500;
+    border-top-color: rgba(0, 188, 212, .1)!important;
+}
+
+
+.icon-small{
+    font-size: 16px!important;
+}
